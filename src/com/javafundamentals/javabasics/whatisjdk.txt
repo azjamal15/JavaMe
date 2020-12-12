@@ -1,0 +1,10 @@
+What is a JDK?
+    - Java Development Kit
+    - a software development environment used for developing Java applications
+    - includes Java Runtime Environment (JRE)
+    - interpreter/loader (java)
+    - compiler (javac)
+    - an archiver (jar)
+    - documentation generator (javadoc)
+    - OpenJDK is an open source JDK. This is the JDK I like to use. You can find other version online, like on Oracle
+

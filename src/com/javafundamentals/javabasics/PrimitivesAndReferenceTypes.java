@@ -4,7 +4,7 @@ public class PrimitivesAndReferenceTypes {
 
     public static void main(String[] args) {
         int a = 10;
-        int b = a; // pass by copy; unaffected by what happends in a
+        int b = a; // pass by copy; unaffected by what happens in a
         a = 100;
         System.out.println("a = " + a + " - b = " + b);
 
