@@ -9,15 +9,15 @@ public class PrimitivesAndReferenceTypes {
         System.out.println("a = " + a + " - b = " + b);
 
         Person alex = new Person("alex");
-        Person mariam = alex;
+        Person mary = alex;
 
         System.out.println("before changing alex");
-        System.out.println(alex.name + " " + mariam.name);
+        System.out.println(alex.name + " " + mary.name);
 
-        mariam.name = "Mariam";
+        mary.name = "Mariam";
 
         System.out.println("after changing alex");
-        System.out.println(alex.name + " " + mariam.name);
+        System.out.println(alex.name + " " + mary.name);
     }
 
     static class Person {
